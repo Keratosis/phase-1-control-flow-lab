@@ -1,5 +1,3 @@
-const { expect } = require("chai")
-
 function scuberGreetingForFeet(ride){
   if (ride <= 400){
    return 'This one is on me!'}
@@ -15,10 +13,6 @@ function scuberGreetingForFeet(ride){
     : "No go.";
   }
 
-
-
-
-
 function switchOnCharmFromTip(Tip){
      switch(Tip){
         case 'generous':
@@ -28,4 +22,4 @@ function switchOnCharmFromTip(Tip){
         default:
           return  "Bye."}
    
-}
+     }
